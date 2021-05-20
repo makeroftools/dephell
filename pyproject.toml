@@ -109,7 +109,7 @@ import_heading_localfolder = "app"
 
 [tool.poetry]
 name = "dephell"
-version = "0.8.3"
+version = "0.8.4"
 authors = ["Gram <master_fess@mail.ru>"]
 description = "Dependency resolution for Python"
 readme = "README.md"
@@ -150,7 +150,7 @@ m2r = "*"
 packaging = "*"
 pip = ">=18.0,<=19.3.1"
 requests = "*"
-tomlkit = "*"
+tomlkit = "<0.7.1"
 yaspin = "*"
 certifi = "*"
 

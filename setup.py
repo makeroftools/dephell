@@ -5,16 +5,11 @@
 # https://github.com/dephell/dephell
 
 try:
-    # external
     from setuptools import setup
 except ImportError:
-    # built-in
     from distutils.core import setup
 
-# built-in
-# built-in
 import os.path
-
 
 readme = ''
 here = os.path.abspath(os.path.dirname(__file__))
@@ -26,7 +21,7 @@ if os.path.exists(readme_path):
 setup(
     long_description=readme,
     name='dephell',
-    version='0.8.3',
+    version='0.8.4',
     description='Dependency resolution for Python',
     python_requires='>=3.6',
     project_urls={
@@ -57,7 +52,7 @@ setup(
         'dephell.repositories._git', 'dephell.repositories._warehouse'
     ],
     package_dir={"": "."},
-    package_data={"dephell": ["templates/*.j2", "templates/*.sh"]},
+    package_data={"dephell": ["*.pyi", "templates/*.j2", "templates/*.sh"]},
     install_requires=[
         'aiohttp', 'attrs>=19.2.0', 'cerberus>=1.3', 'certifi',
         'dephell-archive>=0.1.5', 'dephell-argparse>=0.1.1',
@@ -67,7 +62,7 @@ setup(
         'dephell-setuptools>=0.2.1', 'dephell-shells>=0.1.3',
         'dephell-specifier>=0.1.7', 'dephell-venvs>=0.1.16',
         'dephell-versioning', 'jinja2', 'm2r', 'packaging',
-        'pip<=19.3.1,>=18.0', 'requests', 'tomlkit', 'yaspin'
+        'pip<=19.3.1,>=18.0', 'requests', 'tomlkit<0.7.1', 'yaspin'
     ],
     extras_require={
         "dev": [
