@@ -63,9 +63,10 @@ class Context:
     @cached_property
     def parser(self):
         parser = ArgumentParser()
-        parser.add_argument('--branch', help='install dephell from git from given branch')
+        parser.add_argument('--branch', default='master',
+                            help='install dephell from git from given branch')
         parser.add_argument('--version', help='install specified version')
-        parser.add_argument('--slug', default='dephell/dephell',
+        parser.add_argument('--slug', default='rigetti/dephell',
                             help='repository slug to use when installing from Github')
         return parser
 
@@ -177,7 +178,9 @@ class Context:
             name = 'dephell[full]=={version}'.format(version=self.args.version)
         else:
             name = 'dephell[full]'
-        result = subprocess.run([str(self.python_path), '-m', 'pip', 'install', name])
+        command = [str(self.python_path), '-m', 'pip', 'install', name]
+        print(f"Installing with: {','.join(command)}")
+        result = subprocess.run(command)
         if result.returncode != 0:
             exit(result.returncode)
 
