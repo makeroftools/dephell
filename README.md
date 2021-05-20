@@ -1,14 +1,9 @@
-# THE PROJECT IS ARCHIVED
-
-Forks: https://github.com/orsinium/forks
-
----
-
 # ![DepHell](./assets/logo.png)
+
+This project was forked from the [original](https://github.com/rigetti/dephell) for limited maintenance only.
 
 [![pypi](https://img.shields.io/pypi/v/dephell.svg)](https://pypi.python.org/pypi/dephell/)
 [![MIT License](https://img.shields.io/pypi/l/dephell.svg)](https://github.com/dephell/dephell/blob/master/LICENSE)
-[![Travis CI](https://travis-ci.org/dephell/dephell.svg?branch=master)](https://travis-ci.org/dephell/dephell)
 [![Powered by DepHell](./assets/badge.svg)](./docs/badge.md)
 
 **DepHell** -- project management for Python.
@@ -16,14 +11,14 @@ Forks: https://github.com/orsinium/forks
 Why it is better than all other tools:
 
 1. **Format agnostic**. You can use DepHell with your favorite format: setup.py, requirements.txt, Pipfile, poetry. DepHell supports them all and much more.
-1. **Use your favorite tool on any project**. Want to install a poetry based project, but don't like poetry? Just tell DepHell to convert the project's meta information into a setup.py and install it with pip. Or directly work with the project from DepHell, because DepHell can do everything that you usually want to do with packages.
-1. **DepHell doesn't try to replace your favorite tools**. If you use poetry, you have to use poetry's file formats and commands. However, DepHell can be combined with any other tool or can even combine all these tools together by converting formats. You can use DepHell, poetry, and pip all at the same time.
-1. **Easily extendable**. DepHell has strong modularity and can be easily extended with new formats and commands.
-1. **Developer friendly**. We aren't going to place all of our modules into [`_internal`](https://github.com/pypa/pip/tree/master/src/pip/_internal). Also, DepHell has a [large ecosystem](https://github.com/dephell) with separated libraries so you can use only the parts of DepHell that you need.
-1. **All-in-one-solution**. DepHell can manage dependencies, virtual environments, tests, CLI tools, packages, generate configs, show licenses for dependencies, assist with security audits, get download statistics from PyPI, search packages and much more.
-1. **Smart dependency resolution**. Sometimes pip and pipenv fail to lock your dependencies. Try to execute `pipenv install oslo.utils==1.4.0`. Pipenv can't handle it, but DepHell can: `dephell deps add --from=Pipfile oslo.utils==1.4.0` to add new dependency and `dephell deps convert --from=Pipfile --to=Pipfile.lock` to lock it.
-1. **Asyncio based**. DepHell doesn't support Python 2.7, and that allows us to use modern features to make network and filesystem requests as fast as possible.
-1. **Multiple environments**. You can have as many environments for project as you want. Separate sphinx dependencies from your main and dev environment. Other tools like pipenv and poetry don't support this.
+2. **Use your favorite tool on any project**. Want to install a poetry based project, but don't like poetry? Just tell DepHell to convert the project's meta information into a setup.py and install it with pip. Or directly work with the project from DepHell, because DepHell can do everything that you usually want to do with packages.
+3. **DepHell doesn't try to replace your favorite tools**. If you use poetry, you have to use poetry's file formats and commands. However, DepHell can be combined with any other tool or can even combine all these tools together by converting formats. You can use DepHell, poetry, and pip all at the same time.
+4. **Easily extendable**. DepHell has strong modularity and can be easily extended with new formats and commands.
+5. **Developer friendly**. We aren't going to place all of our modules into [`_internal`](https://github.com/pypa/pip/tree/master/src/pip/_internal). Also, DepHell has a [large ecosystem](https://github.com/dephell) with separated libraries so you can use only the parts of DepHell that you need.
+6. **All-in-one-solution**. DepHell can manage dependencies, virtual environments, tests, CLI tools, packages, generate configs, show licenses for dependencies, assist with security audits, get download statistics from PyPI, search packages and much more.
+7. **Smart dependency resolution**. Sometimes pip and pipenv fail to lock your dependencies. Try to execute `pipenv install oslo.utils==1.4.0`. Pipenv can't handle it, but DepHell can: `dephell deps add --from=Pipfile oslo.utils==1.4.0` to add new dependency and `dephell deps convert --from=Pipfile --to=Pipfile.lock` to lock it.
+8. **Asyncio based**. DepHell doesn't support Python 2.7, and that allows us to use modern features to make network and filesystem requests as fast as possible.
+9. **Multiple environments**. You can have as many environments for project as you want. Separate sphinx dependencies from your main and dev environment. Other tools like pipenv and poetry don't support this.
 
 Features:
 
