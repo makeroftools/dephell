@@ -1,3 +1,7 @@
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.8.5"
+tag_format = "v.$version"
 
 # Default section.
 # Convert dephell metainfo and dependencies from poetry to setup.py:
