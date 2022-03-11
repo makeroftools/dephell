@@ -160,7 +160,7 @@ appdirs = {optional = true, version = "*"}
 bowler = {optional = true, version = "*"}
 docker = {optional = true, version = "*"}
 dockerpty = {optional = true, version = "*"}
-fissix = {optional = true, allows-prereleases = true, version = "*"}
+fissix = {optional = true, allow-prereleases = true, version = "*"}
 graphviz = {optional = true, version = "*"}
 html5lib = {optional = true, version = "*"}
 python-gnupg = {optional = true, version = "*"}
