@@ -1,0 +1,100 @@
+484	OPEN	poetry fails on dephell-generated poetry.lock		2020-12-30 17:57:28 +0000 UTC
+483	OPEN	IndexError during `dephell package list` run		2020-12-29 18:33:21 +0000 UTC
+482	OPEN	dephell generates setup.py with README.rst instead od README.md		2020-12-29 17:42:41 +0000 UTC
+481	OPEN	dephell tries to uninstall system pip during `venv create`		2020-12-29 17:19:18 +0000 UTC
+480	OPEN	Cannot install using conda-forge infrastructure		2020-12-24 00:09:55 +0000 UTC
+479	OPEN	Multiple version peotry.lock causing TypeError: unhashable type: 'Container'		2020-12-17 11:33:56 +0000 UTC
+478	OPEN	Dephell attempts to test scripts as Python versions which does not work.		2020-12-01 08:16:24 +0000 UTC
+477	OPEN	Error: dephell tries to access Windows Python from WSL2 shell		2020-12-01 08:10:23 +0000 UTC
+476	OPEN	How to undo 'dephell project register'?		2020-11-19 15:16:36 +0000 UTC
+475	OPEN	CI runs fail		2020-10-29 09:41:40 +0000 UTC
+472	OPEN	Support pip 20		2021-01-08 17:45:43 +0000 UTC
+471	OPEN	missing conversion of dependency markers		2020-10-08 17:46:45 +0000 UTC
+470	OPEN	Error: Too many open files		2020-09-30 19:00:55 +0000 UTC
+467	OPEN	`self autocomplete` doesn't respect ZDOTDIR env var when adding autocompletion for zsh		2020-09-24 11:50:33 +0000 UTC
+465	OPEN	UnicodeDecodeError in dephell deps convert		2020-09-16 09:21:45 +0000 UTC
+464	OPEN	dephell doesn't pin virtualenv deps		2020-09-16 13:24:59 +0000 UTC
+463	OPEN	dephell convert conflict with a PEP440 direct reference		2020-09-11 13:00:07 +0000 UTC
+462	OPEN	setup.py py_modules not supported		2020-09-06 10:38:36 +0000 UTC
+461	OPEN	Project bump changing dependency specification format causing upstream packages to break		2020-09-23 17:41:17 +0000 UTC
+460	OPEN	dephell doesn't properly parse valid poetry dependencies (eg. `tox = "^tox 3.11"`)		2020-08-30 22:14:55 +0000 UTC
+457	OPEN	Dephell vendor download does not work for single-file modules	bug	2020-08-24 15:34:15 +0000 UTC
+456	OPEN	dephell dep --help throws traceback	bug	2020-08-24 15:34:15 +0000 UTC
+455	OPEN	'InvalidSpecifier: ==not' when converting from Pipfile.lock	bug	2020-08-24 15:34:15 +0000 UTC
+454	OPEN	logging_helpers: TypeError: can only concatenate str (not "bytes") to str	bug	2020-08-24 15:34:14 +0000 UTC
+453	OPEN	How to use behind proxy?		2020-07-29 02:06:44 +0000 UTC
+452	OPEN	Depending on pylint + flake8-isort + isort == infinite recursion	bug	2020-08-24 15:34:14 +0000 UTC
+447	OPEN	[FR] 'dephell deps convert' as a standalone library		2020-08-24 15:21:06 +0000 UTC
+446	OPEN	poetry.lock output missing required `optional` key	bug	2020-08-24 15:34:14 +0000 UTC
+445	OPEN	Crash when trying to convert when source file is a conda env with a pip section		2020-06-09 20:06:45 +0000 UTC
+440	OPEN	Make images urls in long_description absolute	enhancement	2020-05-21 13:16:24 +0000 UTC
+438	OPEN	Cache classes may create files out of cache dir		2020-06-03 14:31:53 +0000 UTC
+421	OPEN	deps add does not work	bug	2020-05-22 23:01:40 +0000 UTC
+418	OPEN	dephell fails to resolve deps because it chooses a version of scipy intended for python 2	bug	2020-06-02 14:06:31 +0000 UTC
+417	OPEN	FileNotFoundError when adding credentials (`dephell self auth`)		2020-04-13 12:08:30 +0000 UTC
+413	OPEN	Named venv	enhancement	2020-03-26 08:03:50 +0000 UTC
+403	OPEN	Conversion of git+ssh paths creates invalid requirements.txt		2020-03-16 10:20:39 +0000 UTC
+391	OPEN	[BUG] Building Wheel for project with src dir not working		2020-05-12 18:34:13 +0000 UTC
+390	OPEN	[FR] Pip dependencies in environment.yml support		2020-02-20 21:38:32 +0000 UTC
+389	OPEN	[FR] Conda channels support		2020-04-17 18:14:31 +0000 UTC
+387	OPEN	[BUG] dephell symlink should be created in a certain directory		2020-02-19 03:07:34 +0000 UTC
+382	OPEN	[BUG] fragile cwd handling during install (or any pip calls)		2020-04-27 13:12:11 +0000 UTC
+378	OPEN	[WIN·FEATURE] Export setuptools shims into a single 'bin' directory	bug	2020-04-27 13:06:58 +0000 UTC
+377	OPEN	Unable to create a poetry.lock file -- Lookup Error All dependencies are empty		2020-05-13 04:18:59 +0000 UTC
+369	OPEN	APPDATA fallback code for Windows?	enhancement, help wanted, good first issue	2020-01-27 17:10:39 +0000 UTC
+359	OPEN	Allow pip arguments with dephell jail install		2020-01-28 18:22:36 +0000 UTC
+353	OPEN	jail install should auto-install extras defined using ":python_version == xx"		2020-01-10 21:39:29 +0000 UTC
+351	OPEN	`dephell deps remove` command	command	2020-01-24 18:43:49 +0000 UTC
+348	OPEN	How to start? (CALL FOR COMMUNITY ARTICLES)	help wanted, good first issue, docs, Hacktoberfest	2020-05-23 20:26:19 +0000 UTC
+330	OPEN	convert from pyproject.toml is broken for dependencies that are an array	enhancement	2020-07-28 20:34:22 +0000 UTC
+329	OPEN	Documentation Questions, pyproject.toml and tests		2019-12-17 16:28:06 +0000 UTC
+327	OPEN	Problem with parsing request package.		2019-12-17 13:11:01 +0000 UTC
+307	OPEN	Forbid to specify `--from` and `--from-format` at the same time.	bug, good first issue, Hacktoberfest	2020-08-31 22:36:24 +0000 UTC
+295	OPEN	Broken python version resolution for zipp	bug	2019-10-25 15:28:37 +0000 UTC
+282	OPEN	Include docs/changelog.md in sdist	enhancement, good first issue, Hacktoberfest	2019-10-25 13:13:26 +0000 UTC
+271	OPEN	global options	enhancement	2019-10-21 14:37:08 +0000 UTC
+269	OPEN	Error connecting to private warehouse on non-standard port		2019-12-17 12:52:35 +0000 UTC
+268	OPEN	Invalid dependency resolution for non-default python version	bug	2019-12-20 14:15:40 +0000 UTC
+254	OPEN	Dephell cannot install via pipenv on python 3.7.4 due to fissix incompatible versions		2020-03-17 08:41:42 +0000 UTC
+238	OPEN	Convert into homebrew receipt	enhancement	2020-01-20 12:44:32 +0000 UTC
+237	OPEN	Expand `~` in paths	bug	2019-07-24 14:02:39 +0000 UTC
+236	OPEN	Can't resolve version for dependency with extra requirements	bug	2019-07-24 14:03:09 +0000 UTC
+235	OPEN	No support for private warehouses in `package install`	bug	2019-07-24 14:02:39 +0000 UTC
+234	OPEN	Support for private warehouses with custom SSL certificates	bug	2019-07-24 14:02:38 +0000 UTC
+233	OPEN	Fibonacci versioning	enhancement	2019-07-22 08:41:43 +0000 UTC
+210	OPEN	`deps clean` command	command	2019-07-17 15:37:12 +0000 UTC
+208	OPEN	Tell your use case	help wanted, docs	2020-03-18 15:47:10 +0000 UTC
+207	OPEN	`jail shell` command	good first issue, command, Hacktoberfest	2020-01-28 15:46:11 +0000 UTC
+200	OPEN	--steps to include or exclude some steps from command	enhancement	2019-07-01 20:02:56 +0000 UTC
+198	OPEN	Allow to append command in venv run, not override	enhancement, question	2019-07-11 09:50:15 +0000 UTC
+189	OPEN	Clean-up command	help wanted, good first issue, question, command, Hacktoberfest	2019-11-12 12:52:46 +0000 UTC
+188	OPEN	pipelines	enhancement	2019-06-26 14:00:52 +0000 UTC
+181	OPEN	`generate sphinx` command	good first issue, command, Hacktoberfest	2019-09-27 17:39:32 +0000 UTC
+178	OPEN	Option to use README.md and not README.rst		2020-03-18 10:25:03 +0000 UTC
+174	OPEN	FileExistsError when converting from pyproject.toml to poetry.lock		2020-07-21 14:07:27 +0000 UTC
+168	OPEN	Aliases for entrypoints in `jail install`	enhancement, good first issue, Hacktoberfest	2019-09-27 17:39:32 +0000 UTC
+166	OPEN	`dephell global` to manage global config	good first issue, command, Hacktoberfest	2019-09-27 17:39:32 +0000 UTC
+164	OPEN	Finish off the Community Profile		2019-06-17 06:36:58 +0000 UTC
+160	OPEN	`generate gitattributes` command	good first issue, command, Hacktoberfest	2019-09-27 17:39:32 +0000 UTC
+157	OPEN	`generate readme` command	good first issue, command, Hacktoberfest	2019-10-02 09:07:30 +0000 UTC
+156	OPEN	`package interface` to compare releases interfaces	command	2019-06-13 07:58:34 +0000 UTC
+155	OPEN	Run `project test` on CI		2019-06-13 07:51:43 +0000 UTC
+133	OPEN	`deps names` command to check name squatting	command	2019-05-28 19:51:47 +0000 UTC
+123	OPEN	Document dependencies merge	docs	2019-07-05 08:17:49 +0000 UTC
+121	OPEN	Add examples for all commands	enhancement, good first issue	2019-09-27 17:40:46 +0000 UTC
+116	OPEN	`deps tidy` to drop unused dependencies	command	2019-05-23 09:24:24 +0000 UTC
+98	OPEN	.rpm, .deb, .msi, etc	enhancement	2020-01-30 00:42:37 +0000 UTC
+96	OPEN	`generate gitignore` command	command	2020-01-07 19:31:13 +0000 UTC
+73	OPEN	Github package registry support		2019-05-11 20:28:52 +0000 UTC
+70	OPEN	`dephell project cd` command	good first issue, command, Hacktoberfest	2019-10-08 13:20:11 +0000 UTC
+54	OPEN	Custom inline dependency format	help wanted, question	2019-05-04 15:40:43 +0000 UTC
+50	OPEN	Debian repositories support	enhancement	2019-05-28 17:08:26 +0000 UTC
+38	OPEN	Reversed dependencies for a package	enhancement, help wanted, question	2019-05-24 21:06:40 +0000 UTC
+37	OPEN	`jail update` command	command	2019-05-23 09:20:12 +0000 UTC
+36	OPEN	Github API support	enhancement	2019-04-22 12:17:00 +0000 UTC
+34	OPEN	Test untested commands	help wanted, good first issue	2019-12-17 11:55:30 +0000 UTC
+32	OPEN	PEP-582 support	question	2019-04-22 09:04:47 +0000 UTC
+22	OPEN	`jail inject` command to install packages into existing jail	command	2020-01-28 15:43:57 +0000 UTC
+13	OPEN	dephell build-backend	enhancement	2019-04-22 07:51:34 +0000 UTC
+10	OPEN	Python 3.5.2 support	question	2020-06-26 18:36:40 +0000 UTC
+2	OPEN	Tox support	enhancement	2020-09-07 09:18:50 +0000 UTC
