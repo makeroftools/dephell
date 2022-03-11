@@ -1,4 +1,11 @@
+"""setup.py module
+
+handle issue from dephell_setuptools.read_setup based on this
+
+- https://github.com/pypa/setuptools/pull/2896
+"""
 # built-in
+import os
 from collections import defaultdict
 from json import dumps as json_dumps
 from logging import getLogger
@@ -9,9 +16,14 @@ from typing import Optional
 import attr
 from dephell_discover import Root as PackageRoot
 from dephell_links import DirLink, FileLink, URLLink, VCSLink, parse_link
-from dephell_setuptools import read_setup
 from dephell_specifier import RangeSpecifier
 from packaging.requirements import Requirement
+
+try:
+    from dephell_setuptools import read_setup
+except AssertionError:
+    os.environ['SETUPTOOLS_USE_DISTUTILS'] = 'stdlib'
+    from dephell_setuptools import read_setup
 
 # app
 from ..constants import DOWNLOAD_FIELD, HOMEPAGE_FIELD
